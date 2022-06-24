@@ -1,0 +1,44 @@
+#root{
+  height: 300px;
+  width: 300px;
+  margin: 60px;
+}
+.header{
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid grey;
+  font-size: 30px;
+  width: 100%;
+}
+::placeholder {
+  color: rgb(12, 71, 12);
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.item{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: rgb(12, 71, 12);
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: rgb(9, 43, 82);
+  font-size: larger;
+
+}
+input{
+  outline: 0;
+}
+.listitem{
+margin-bottom: 50px;
+}
+.inputitem{
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
